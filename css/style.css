@@ -4,6 +4,7 @@ body {
 ul li{
 	list-style: none;
 	line-height: 1.5;
+	margin: 5px;
 }
 a {
 	color: darkblue;
@@ -39,4 +40,5 @@ a:hover{
 }
 .img-holder img{
 	width: 100%;
+	background: green;
 }
