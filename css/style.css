@@ -15,6 +15,9 @@ a:hover{
 	text-decoration: underline;
 	font-size: 1.1em;
 }
+h1{
+	font-size: 80px;
+}
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
@@ -23,7 +26,7 @@ a:hover{
 	background: blue;
 }
 .container{
-	background: red;
+	background: yellow;
 	display: flex;
 	flex-direction: row;
 }
