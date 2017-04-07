@@ -1,6 +1,19 @@
 body {
 	font-size: 18px;
 }
+ul li{
+	list-style: none;
+	line-height: 1.5;
+}
+a {
+	color: darkblue;
+	text-decoration: none;
+}
+a:hover{
+	color: darkred;
+	text-decoration: underline;
+	font-size: 1.1em;
+}
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
@@ -10,4 +23,20 @@ body {
 }
 .container{
 	background: red;
+	display: flex;
+	flex-direction: row;
+}
+.left-col{
+	padding: 10px 5px;
+	width: 35%;
+	opacity: .6;
+	background: lightgreen;
+}
+.main-col{
+	padding: 10px 5px;
+	width: 65%;
+	opacity: .9;
+}
+.img-holder img{
+	width: 100%;
 }
